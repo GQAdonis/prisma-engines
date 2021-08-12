@@ -156,7 +156,7 @@ services:
       MYSQL_BIND_HOST: "0.0.0.0"
 
   vitess-test-8_0:
-    image: vitess/vttestserver:mysql80@sha256:d7c9036e27557d16dc6b20c1a2582e710b61b9723d5523ecba37feccaf4f97ba
+    image: vitess/vttestserver:mysql80@sha256:47daf22bb26d3f306ec7263d9ccc4f553aaf2c3ebdb879b173501bbb9b836aca
     restart: always
     ports:
       - 33807:33807
@@ -178,7 +178,7 @@ services:
       MYSQL_BIND_HOST: "0.0.0.0"
 
   vitess-shadow-8_0:
-    image: vitess/vttestserver:mysql80@sha256:d7c9036e27557d16dc6b20c1a2582e710b61b9723d5523ecba37feccaf4f97ba
+    image: vitess/vttestserver:mysql80@sha256:47daf22bb26d3f306ec7263d9ccc4f553aaf2c3ebdb879b173501bbb9b836aca
     restart: always
     ports:
       - 33808:33807
